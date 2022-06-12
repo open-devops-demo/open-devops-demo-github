@@ -1,3 +1,5 @@
+// this is comment block
+
 pipeline {
     agent any
     
@@ -12,6 +14,7 @@ pipeline {
         always {
             echo 'This will always run'
             jiraSendBuildInfo()
+            jiraSendDeploymentInfo()
         }
         success {
             echo 'This will run only if successful'
