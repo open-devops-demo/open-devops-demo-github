@@ -6,3 +6,5 @@
 
 ## Issue key 연동
 연동 테스트
+## test
+* 2024-04-26 fullstack 6회차
